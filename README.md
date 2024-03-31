@@ -5,7 +5,7 @@ A bigram language model trained to predict Gujarati names based on the trained d
 - Python 3.10
 - PyTorch 2.1.2
 
-# How to run
+# How To Run
 - Clone repo: 
   git clone https://github.com/cancer32/make-gujarati-names.git
 - Change directory:
@@ -16,6 +16,6 @@ A bigram language model trained to predict Gujarati names based on the trained d
   python generate.py --count 50 --weights ./weights/names_female.out
   python generate.py --count 50 --weights ./weights/names_male.out
 
-# Train Model using dataset
+# Train The Model
 - python train.py -i ./dataset/names_female.txt -o ./weights/names_female.out --seed 1 --learning_rate 50 --training_loop 1000
 - python train.py -i ./dataset/names_male.txt -o ./weights/names_male.out --seed 1 --learning_rate 50 --training_loop 1000
