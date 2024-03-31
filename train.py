@@ -33,9 +33,9 @@ if __name__ == "__main__":
         words = f.read().splitlines()
 
     # Create model
-    lm = BigramLM()
+    model = BigramLM()
     # Provide training dataset to Train the model
-    lm.train(
+    model.train(
         words=words,
         seed=args.seed,
         learning_rate=args.learning_rate,
@@ -43,4 +43,4 @@ if __name__ == "__main__":
     )
     # Write model weights
     with open(args.output, "wb") as f:
-        pickle.dump(lm, f)
+        pickle.dump(model, f)
