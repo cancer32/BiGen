@@ -12,5 +12,8 @@ A bigram language model trained to predict Gujarati names according to gender. I
   cd make-gujarati-names
 - Install dependencies:
   pip install -r requirements.txt
-- python make_gujarati_names.py --count 50 --gender female
-- This will output a text file "output.txt" containing the prediction
+- Generate an "output.txt" file containing the predictions
+  python generate.py --count 50 --weights ./weights/names_female.out
+
+# Train Model using dataset
+- python train.py -i ./dataset/names_female.txt -o ./weights/names_female.out --seed 1 --learning_rate 50 --training_loop 1000
