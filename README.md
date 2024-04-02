@@ -7,7 +7,7 @@ A bigram language model trained to predict person names based on the given datas
 
 # How To Run
 - Clone repo: 
-  git clone https://github.com/cancer32/make-gujarati-names.git
+  git clone https://github.com/cancer32/BiGen.git
 - Change directory:
   cd make-gujarati-names
 - Install dependencies:
