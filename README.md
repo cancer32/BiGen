@@ -1,5 +1,5 @@
-# make-gujarati-names
-A bigram language model trained to predict Gujarati names based on the given dataset. It generates names per character basis using the Feed forward neural network
+# BiGen: Bigram Name Generator
+A bigram language model trained to predict person names based on the given dataset. It generates names per character basis using the Feed forward neural network. The model is trained on datasets containing male and female names in the Gujarati language. However, it can be adapted to train on datasets in any language.
 
 # Requirements
 - Python 3.10
