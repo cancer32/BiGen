@@ -9,7 +9,7 @@ A bigram language model trained to predict person names based on the given datas
 - Clone repo: 
   git clone https://github.com/cancer32/BiGen.git
 - Change directory:
-  cd make-gujarati-names
+  cd BiGen
 - Install dependencies:
   pip install -r requirements.txt
 - Generate an "output.txt" file containing the predictions:
